@@ -3,7 +3,7 @@
 
 
 //Q11
-/*
+
 #include<stdio.h>
 void main(){
 	int a = 10;
@@ -20,9 +20,9 @@ a = 10
 a++ = 11
 ++a = 12
 a = 12
-*/
+
 //Q12
-/*
+
 #include<stdio.h>
 void main(){
 	int a,b;
@@ -34,10 +34,10 @@ mca@mca-OptiPlex-3050-AIO:~$ ./a.out
 Enter two numbers : 23 11
 23 is greater(base)
 
-*/
+
 
 //Q13
-/*
+
 #include<stdio.h>
 void main(){
 	int a,b,c;
@@ -46,12 +46,12 @@ void main(){
 	(a>b) ? ((a>c) ? printf("%d is largest\n",a) : ((b>c) ? (b>a) : printf("%d o is largest\n",b)):printf("%d is largest\n",c));
 	} 
 
-*/
+
 //Q14
 //Quadtratic eq
 
 //Q15
-/*
+
 #include<stdio.h>
 void main(){
 	float a,b,c;
@@ -80,10 +80,10 @@ Enter Marks in 3 Subjects : 60 70 89
 Total Marks : 219.000000
 Percentage : 73.000000
 Grade 2ND Class
-*/
+
 
 //Q16
-/*
+
 #include<stdio.h>
 void main(){
 	int year;
@@ -100,9 +100,8 @@ Year 2017 is not leap year
 (base) mca@mca-OptiPlex-3050-AIO:~$ ./a.out
 Enter Year : 2000
 Year 2000 is Leap 
-*/
+
 //Q17
-/*
 
 #include<stdio.h>
 void main(){
@@ -121,11 +120,11 @@ Enter number : 7
 Factorial of 5040 (base) mca@mca-OptiPlex-3050-AIO:~$ ./a.out
 Enter number : 3
 Factorial of 6 
-*/
+
 
 //Q18
 
-/*
+
 #include<stdio.h>
 void main(){
 	int n;
@@ -146,9 +145,9 @@ void main(){
 
 Enter number : 153
 153 is an Armstrong number 
-*/
+
 //Q19
-/*
+
 #include<stdio.h>
 void main(){
 	int n;
@@ -164,9 +163,9 @@ void main(){
 
 Enter number : 444
 Sum = 12
-*/
+
 //Q20
-/*
+
 #include<stdio.h>
 void main(){
 	int num,n=0;
@@ -185,7 +184,7 @@ Enter number : 12334
 */
 
 //Q21
-/*
+
 #include<stdio.h>
 void main(){
 	int n1=0,n2=1,it=10;
