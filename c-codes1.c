@@ -2,7 +2,7 @@
 //MC24101733
 
 //Q22
-/*
+
 #include<stdio.h>
 void main(){
     int n,rev=0,rem;
@@ -16,9 +16,9 @@ void main(){
     printf("Reverse : %d\n",rev);
 }
 
-*/
+
 //Q23
-/*
+
 #include<stdio.h>
 void main(){
     int n,sum=0,i,rem;
@@ -29,9 +29,9 @@ void main(){
         sum += rem;
     }
     printf("Sum of Digits in given integer : %d",sum);
-}*/
+
 //Q24
-/*
+
 #include<stdio.h>
 void main(){
     int n,rev=0,rem;
@@ -49,9 +49,9 @@ void main(){
     else{
         printf("Number is not palindrome\n");
     }
-}*/
+}
 //Q25
-/* 
+
 #include<stdio.h>
 void main(){
     int num,sum=0,n;
@@ -64,9 +64,9 @@ void main(){
     }
     sum+=num;
     printf("Sum of 1st and 4th digit : %d",sum);
-}*/
+}
 //Q26
-/*
+
 #include<stdio.h>
 void main(){
     int a,b,i,gcd,lcm,max;
@@ -85,9 +85,9 @@ void main(){
         lcm+=max;
     printf("GCD : %d\nLCM : %d\n",gcd,lcm);
 }
-*/
+
 //Q27
-/*
+
 #include<stdio.h>
 void main(){
     int i,j;
@@ -104,9 +104,9 @@ void main(){
  *  *  *  *  * 
  *  *  *  *  *  * 
  *  *  *  *  *  *  * 
- */
+ 
 //Q28
-/*
+
 #include<stdio.h>
 void main(){
     int a[10],i,n,flag=0;
@@ -128,7 +128,7 @@ void main(){
         
 }*/
 //Q29
-/*
+
 #include<stdio.h>
 void main(){
     int a[10]={1,2,3,4,5,6,7,8,9,0};
@@ -139,7 +139,7 @@ void main(){
 }*/
 
 //Q30
-/*
+
 #include<stdio.h>
 void main(){
     int a[8]={3,1,5,7,4,21,45,23};
@@ -156,7 +156,7 @@ void main(){
 }*/
 
 //Q31
-/*
+
 #include<stdio.h>
 void main(){
     int a[8]={1,2,3,4,5,6,7,8};
@@ -171,9 +171,9 @@ void main(){
     for (int i=0;i<8;i++)
         printf("%d\t",a[i]);
 }
-*/
+
 //Q32
-/*
+
 #include<stdio.h>
 void main(){
     int a[10]={1,2,3,4,5,6,7,8,9,0};
@@ -185,9 +185,9 @@ void main(){
     }
     for (int i=0;i<9;i++)
         printf("%d\t",a[i]);
-}*/
+}
 //Q33
-/*
+
 #include<stdio.h>
 void main(){
     int a[3][3]={{1,2,3},{4,5,6},{7,8,9}};
@@ -197,7 +197,7 @@ void main(){
         printf("\n");
     }
 
-}*/
+}
 //Q34
 #include<stdio.h>
 void main(){
@@ -259,4 +259,19 @@ void main(){
                 printf("%d ",m[i][j]);
             printf("\n");
         }
+}
+
+
+//Q36
+#include<stdio.h>
+void main(){
+    int i,j,c=0;
+    char str[10];
+    printf("Enter String : ");
+    scanf("%s",str);
+    for (i=0;str[i]!='\0';i++){
+        if (str[i]=='A' || str[i]=='a' || str[i]=='E' || str[i]=='e' || str[i]=='I' || str[i]=='i' || str[i]=='O' || str[i]=='o' || str[i]=='U' || str[i]=='u' )
+            c++;
+    }
+    printf("Number of vowels in string : %d\n",c);
 }
