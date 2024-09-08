@@ -10,7 +10,8 @@ void main(){
 mca@mca-OptiPlex-3050-AIO:~/Desktop$ ./a.out
 This is my first C program
 
-
+//Pranit Visave FYMCA
+//MC24101733
 //Q2
 
 #include<stdio.h>
@@ -25,9 +26,10 @@ void main(){
 mca@mca-OptiPlex-3050-AIO:~/Desktop$ ./a.out
 Sum of A And B : 8
 
+	
+//Pranit Visave FYMCA
+//MC24101733
 //Q3
-
-
 #include<stdio.h>
 void main(){
     int a,b,c;
@@ -41,6 +43,8 @@ mca@mca-OptiPlex-3050-AIO:~/Desktop$ ./a.out
 Product of a and b : 20
 */
 
+//Pranit Visave FYMCA
+//MC24101733
 //Q4
 void main(){
     int r = 10;
@@ -50,6 +54,8 @@ void main(){
      printf("Area of Circle : %f\nCircumference of Circle : %f\n",area,circum);
 }
 
+//Pranit Visave FYMCA
+//MC24101733
 //Q5
 #include<stdio.h>
 void main(){
@@ -61,6 +67,9 @@ void main(){
     printf("Multiplication : %d\n",a*b);
     printf("Division : %d\n",a/b);
 }
+
+//Pranit Visave FYMCA
+//MC24101733
  //Q6-i,ii
 void main(){
    //v= u+at;
@@ -74,6 +83,9 @@ void main(){
      float s = (u*t) + 1/2 * a*(t*t);
     printf("Speed : %f\n",s);
  }
+
+//Pranit Visave FYMCA
+//MC24101733
 //Q7
 #include<stdio.h>
 #include<math.h>
@@ -87,6 +99,8 @@ void main(){
      //c = p*
  }
 
+//Pranit Visave FYMCA
+//MC24101733
 // //Q8
  void main(){
      int a=40,b=60;
@@ -96,6 +110,9 @@ void main(){
      printf("Original Numbers : a = %d, b=%d\n,a,b");
      printf("Swaped Numbers a = %d, b = %d\n",a,b);
  }
+
+//Pranit Visave FYMCA
+//MC24101733
  //Q9
  #include<stdio.h>
  void main(){
@@ -108,6 +125,9 @@ void main(){
      printf("double = %lu",sizeof(d));
      printf("chaR = %lu",sizeof(c));
  }
+
+//Pranit Visave FYMCA
+//MC24101733
  //Q10
  #include<stdio.h>
  void main(){
@@ -115,8 +135,9 @@ void main(){
      int largest = ((a>b)?(a>c):a:c)
  }
 
+//Pranit Visave FYMCA
+//MC24101733
 //Q11
-
 #include<stdio.h>
 void main(){
 	int a = 10;
@@ -134,8 +155,9 @@ a++ = 11
 ++a = 12
 a = 12
 
+//Pranit Visave FYMCA
+//MC24101733
 //Q12
-
 #include<stdio.h>
 void main(){
 	int a,b;
@@ -148,9 +170,9 @@ Enter two numbers : 23 11
 23 is greater(base)
 
 
-
+//Pranit Visave FYMCA
+//MC24101733
 //Q13
-
 #include<stdio.h>
 void main(){
 	int a,b,c;
@@ -163,8 +185,10 @@ void main(){
 //Q14
 //Quadtratic eq
 
-//Q15
 
+//Pranit Visave FYMCA
+//MC24101733
+//Q15
 #include<stdio.h>
 void main(){
 	float a,b,c;
@@ -194,9 +218,9 @@ Total Marks : 219.000000
 Percentage : 73.000000
 Grade 2ND Class
 
-
+//Pranit Visave FYMCA
+//MC24101733
 //Q16
-
 #include<stdio.h>
 void main(){
 	int year;
@@ -214,8 +238,9 @@ Year 2017 is not leap year
 Enter Year : 2000
 Year 2000 is Leap 
 
+//Pranit Visave FYMCA
+//MC24101733
 //Q17
-
 #include<stdio.h>
 void main(){
 	int n;
@@ -234,10 +259,9 @@ Factorial of 5040 (base) mca@mca-OptiPlex-3050-AIO:~$ ./a.out
 Enter number : 3
 Factorial of 6 
 
-
+//Pranit Visave FYMCA
+//MC24101733
 //Q18
-
-
 #include<stdio.h>
 void main(){
 	int n;
@@ -259,8 +283,10 @@ void main(){
 Enter number : 153
 153 is an Armstrong number 
 
-//Q19
 
+//Pranit Visave FYMCA
+//MC24101733
+//Q19
 #include<stdio.h>
 void main(){
 	int n;
@@ -277,8 +303,9 @@ void main(){
 Enter number : 444
 Sum = 12
 
+//Pranit Visave FYMCA
+//MC24101733
 //Q20
-
 #include<stdio.h>
 void main(){
 	int num,n=0;
@@ -296,8 +323,11 @@ Enter number : 111
 Enter number : 12334
 */
 
-//Q21
 
+	
+//Pranit Visave FYMCA
+//MC24101733
+//Q21
 #include<stdio.h>
 void main(){
 	int n1=0,n2=1,it=10;
@@ -313,9 +343,9 @@ void main(){
 
 0	1	1	2	3	5	8	13	21	34	*/
 
-
+//Pranit Visave FYMCA
+//MC24101733
 //Q22
-
 #include<stdio.h>
 void main(){
     int n,rev=0,rem;
@@ -329,9 +359,9 @@ void main(){
     printf("Reverse : %d\n",rev);
 }
 
-
+//Pranit Visave FYMCA
+//MC24101733
 //Q23
-
 #include<stdio.h>
 void main(){
     int n,sum=0,i,rem;
@@ -343,8 +373,11 @@ void main(){
     }
     printf("Sum of Digits in given integer : %d",sum);
 
-//Q24
+}
 
+//Pranit Visave FYMCA
+//MC24101733
+//Q24
 #include<stdio.h>
 void main(){
     int n,rev=0,rem;
@@ -363,8 +396,10 @@ void main(){
         printf("Number is not palindrome\n");
     }
 }
-//Q25
 
+//Pranit Visave FYMCA
+//MC24101733
+//Q25
 #include<stdio.h>
 void main(){
     int num,sum=0,n;
@@ -378,8 +413,10 @@ void main(){
     sum+=num;
     printf("Sum of 1st and 4th digit : %d",sum);
 }
-//Q26
 
+//Pranit Visave FYMCA
+//MC24101733
+//Q26
 #include<stdio.h>
 void main(){
     int a,b,i,gcd,lcm,max;
@@ -399,8 +436,9 @@ void main(){
     printf("GCD : %d\nLCM : %d\n",gcd,lcm);
 }
 
+//Pranit Visave FYMCA
+//MC24101733
 //Q27
-
 #include<stdio.h>
 void main(){
     int i,j;
@@ -417,9 +455,10 @@ void main(){
  *  *  *  *  * 
  *  *  *  *  *  * 
  *  *  *  *  *  *  * 
- 
-//Q28
 
+//Pranit Visave FYMCA
+//MC24101733
+//Q28
 #include<stdio.h>
 void main(){
     int a[10],i,n,flag=0;
@@ -439,9 +478,11 @@ void main(){
     else
         printf("not found");
         
-}*/
-//Q29
+}
 
+//Pranit Visave FYMCA
+//MC24101733
+//Q29
 #include<stdio.h>
 void main(){
     int a[10]={1,2,3,4,5,6,7,8,9,0};
@@ -449,10 +490,11 @@ void main(){
     for (int i=0;i<10;i++)
         sum+=a[i];
     printf("Sum of array elements : %d\n",sum);
-}*/
+}
 
+//Pranit Visave FYMCA
+//MC24101733
 //Q30
-
 #include<stdio.h>
 void main(){
     int a[8]={3,1,5,7,4,21,45,23};
@@ -466,10 +508,12 @@ void main(){
         }
     }
     printf("Min : %d\nMax : %d\n",min,max);
-}*/
+}
 
+
+//Pranit Visave FYMCA
+//MC24101733
 //Q31
-
 #include<stdio.h>
 void main(){
     int a[8]={1,2,3,4,5,6,7,8};
@@ -485,8 +529,10 @@ void main(){
         printf("%d\t",a[i]);
 }
 
-//Q32
 
+//Pranit Visave FYMCA
+//MC24101733
+//Q32
 #include<stdio.h>
 void main(){
     int a[10]={1,2,3,4,5,6,7,8,9,0};
@@ -499,8 +545,10 @@ void main(){
     for (int i=0;i<9;i++)
         printf("%d\t",a[i]);
 }
-//Q33
 
+//Pranit Visave FYMCA
+//MC24101733
+//Q33
 #include<stdio.h>
 void main(){
     int a[3][3]={{1,2,3},{4,5,6},{7,8,9}};
@@ -511,6 +559,9 @@ void main(){
     }
 
 }
+
+//Pranit Visave FYMCA
+//MC24101733
 //Q34
 #include<stdio.h>
 void main(){
@@ -547,6 +598,8 @@ void main(){
     }
 }
 
+//Pranit Visave FYMCA
+//MC24101733
 //Q35
 #include<stdio.h>
 void main(){
@@ -574,7 +627,8 @@ void main(){
         }
 }
 
-
+//Pranit Visave FYMCA
+//MC24101733
 //Q36
 #include<stdio.h>
 void main(){
