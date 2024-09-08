@@ -637,7 +637,8 @@ void main(){
     printf("Enter String : ");
     scanf("%s",str);
     for (i=0;str[i]!='\0';i++){
-        if (str[i]=='A' || str[i]=='a' || str[i]=='E' || str[i]=='e' || str[i]=='I' || str[i]=='i' || str[i]=='O' || str[i]=='o' || str[i]=='U' || str[i]=='u' )
+        if (str[i]=='A' || str[i]=='a' || str[i]=='E' || str[i]=='e' || str[i]=='I' ||
+	str[i]=='i' || str[i]=='O' || str[i]=='o' || str[i]=='U' || str[i]=='u' )
             c++;
     }
     printf("Number of vowels in string : %d\n",c);
